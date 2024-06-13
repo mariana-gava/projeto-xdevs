@@ -5,7 +5,7 @@ const cartoes = document.querySelectorAll(".cartao");
 
 btnAvancar.addEventListener("click", function () {
     const ehUltimoCartao = cartaoAtual === cartoes.length - 1
-    if (ehUltimoCartao) return;  // os três === significa se for idêntico, igual
+    if (ehUltimoCartao) return; 
 
  esconderCartoSelecionado();
 
